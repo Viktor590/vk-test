@@ -13,24 +13,24 @@
 
 <body class="bg-primary">
   <div class="container bg-primary d-flex justify-content-center">
-    <div class="min-vh-100 w-50 d-flex justify-content-center h">
+    <div class="vh-100 w-50 d-flex justify-content-center h">
 
       <div
-        class=" block border rounded border-info p-2 pb-0 m-3 container-sm d-flex flex-column align-items-center justify-content-between">
-        <h6>Список Друзей</h6>
+        class="block border rounded border-info p-2 pb-0 m-3 container-sm d-flex flex-column justify-content-between">
+        <h6 class="text-center">Список Друзей</h6>
+        <ul class="list h-100 overflow-auto">
 
-        <div>
-          <button type="button" class="auth btn btn-warning m-3 btn-lg">Войти</button>
-
-        </div>
+        </ul>
+        <button type="button" class="auth btn btn-warning m-3 btn-lg">Войти</button>
       </div>
 
-      <div class="border rounded border-info p-2 pb-0 m-3 container-sm d-flex flex-column align-items-center
+      <div class="drop-zone border rounded border-info p-2 pb-0 m-3 container-sm d-flex flex-column
         justify-content-between">
-        <h6>Избранные Друзья</h6>
-        <div>
-          <button type="button" class="consol btn btn-danger m-3 btn-lg">Консоль</button>
-        </div>
+        <h6 class="text-center">Избранные Друзья</h6>
+        <ul class="list-drop h-100 overflow-auto">
+
+        </ul>
+        <button type="button" class="console btn btn-danger m-3 btn-lg">Консоль</button>
       </div>
 
 
